@@ -11,6 +11,6 @@ public class RoomService {
     }
 
     public void getAll(Room room){
-        rooms.
+     //   rooms.
     }
 }

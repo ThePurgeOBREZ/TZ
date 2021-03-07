@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Вход в комнату</title>
@@ -7,9 +7,10 @@
 <body>
 <div align="center">
     <h1>Вход в комнату страны</h1>
-    <a href="/enter">Беларусь </a>
-    <br>
-    <a href="/enter">Россия </a>
+    <tr th:each="room: ${country}">
+        <a th:href="/enter/{id}/{country}" th:text="${room.country}"></a>
+        <br>
+    </tr>
 </div>
 </body>
 </html>
