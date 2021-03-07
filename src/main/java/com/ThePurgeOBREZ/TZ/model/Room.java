@@ -1,9 +1,4 @@
-package com.wldrmnd.socialnetwork.model;
-
-import lombok.*;
-
-import java.sql.Date;
-import java.util.List;
+package com.ThePurgeOBREZ.TZ.model;
 
 public class Room {
     private Integer id;

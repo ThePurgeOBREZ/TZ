@@ -1,4 +1,4 @@
-package com.wldrmnd.socialnetwork.model;
+package com.ThePurgeOBREZ.TZ.model;
 
 import java.util.Locale;
 

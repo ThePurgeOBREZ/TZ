@@ -1,13 +1,10 @@
-package com.wldrmnd.socialnetwork.controller;
+package com.ThePurgeOBREZ.TZ.controller;
 
-import com.wldrmnd.socialnetwork.model.ListCountry;
-import com.wldrmnd.socialnetwork.model.Room;
+import com.ThePurgeOBREZ.TZ.model.Room;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Locale;
 
 @Controller

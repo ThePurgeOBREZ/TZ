@@ -1,4 +1,4 @@
-package com.wldrmnd.socialnetwork;
+package com.ThePurgeOBREZ.TZ;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

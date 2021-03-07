@@ -1,6 +1,5 @@
-package com.wldrmnd.socialnetwork.model;
+package com.ThePurgeOBREZ.TZ.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class RoomService {
